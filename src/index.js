@@ -1,4 +1,4 @@
-import {map, user, boss} from './data/data.js'
+import {map, user, boss} from '../data/data.js'
 
 const img = document.getElementById("map");
 let ran = Math.floor(Math.random() * map[0].tile_map.length - 1);
